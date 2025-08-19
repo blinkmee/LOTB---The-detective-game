@@ -13,7 +13,7 @@ loadComponent('sidebar-placeholder', './components/sidebar.html');
 loadComponent('footer-placeholder', './components/footer.html');
 
 // Charger un module par défaut dans main-content
-loadComponent('main-content', '/components/mission1.html');
+loadComponent('main-content', './components/mission1.html');
 
 // Exemple : changer le module via JS
 // loadComponent('main-content', '/components/mission2.html');
