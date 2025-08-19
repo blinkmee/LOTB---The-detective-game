@@ -7,10 +7,10 @@ async function loadComponent(containerId, path) {
 }
 
 // Charger head, header, sidebar, footer
-loadComponent('head-placeholder', '/components/head.html');
-loadComponent('header-placeholder', '/components/header.html');
-loadComponent('sidebar-placeholder', '/components/sidebar.html');
-loadComponent('footer-placeholder', '/components/footer.html');
+loadComponent('head-placeholder', './components/head.html');
+loadComponent('header-placeholder', './components/header.html');
+loadComponent('sidebar-placeholder', './components/sidebar.html');
+loadComponent('footer-placeholder', './components/footer.html');
 
 // Charger un module par défaut dans main-content
 loadComponent('main-content', '/components/mission1.html');
